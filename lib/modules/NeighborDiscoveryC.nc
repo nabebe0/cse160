@@ -4,6 +4,5 @@ configuration NeighborDiscoveryC {
 
 implementation {
     components new NeighborDiscoveryP;
-    NeighborDiscovery = NeighborDiscoverP.NeighborDiscovery;
-    NeighborDiscoveryP.initiateNeighborDiscovery -> NeighborDiscoveryC.initiateNeighborDiscovery;
+    NeighborDiscovery = NeighborDiscoveryP.NeighborDiscovery;
 }
