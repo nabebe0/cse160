@@ -3,5 +3,6 @@ module FloodingP {
 }
 
 implementation {
-    command void initiateFlooding();
+    command void Flooding.initiateFlooding() {}
+    event void Flooding.OnFloodingComplete() {}
 }
