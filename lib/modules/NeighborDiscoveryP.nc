@@ -4,5 +4,4 @@ module NeighborDiscoveryP {
 
 implementation {
     command void NeighborDiscovery.initiateNeighborDiscovery() {}
-    event void NeighborDiscovery.OnDiscoveryComplete() {}
 }
