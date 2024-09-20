@@ -1,4 +1,4 @@
-configuartion NeighborDiscoveryC {
+configuration NeighborDiscoveryC {
     provides interface NeighborDiscovery;
 }
 
